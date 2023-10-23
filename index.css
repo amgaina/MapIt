@@ -1,0 +1,114 @@
+
+/* -----------Nav Bar -------------------------------- */
+
+
+.navbar-collapse .navbar-nav{
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+    margin: auto;
+}
+.navbar-nav .nav-link{
+    margin: 20px;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(83, 182, 221), rgb(54, 135, 165));
+}
+.navbar-nav .nav-link:hover{
+    align-items: center;
+    color: yellow !important;
+    text-decoration: underline;
+}
+.navbar-brand .nav-barimg{
+    height: 30px;
+    width: 40px;
+}
+
+#mapit{
+    font-size: 15px;
+    color:aqua;
+}
+
+
+/* --------------Homepage--------------------------- */
+#homepage{
+    background-image: linear-gradient(to right, skyblue, rgb(208, 233, 242));
+    flex-direction: column;
+    justify-content: center;
+}
+.center_button{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+/* ----------------- How to Use---------------------------- */
+ #how_to_use{
+    background-image: linear-gradient(to right, skyblue, rgb(208, 233, 242));
+    flex-direction: column;
+    justify-content: center;
+ }
+ .how_to_use_topic{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: brown;
+    text-decoration: underline;
+ }
+ .center-image {
+    display: block;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  #how_to_use .col {
+    font-size: 20px;
+  }
+
+  /* --------------About Us------------- */
+  #about{
+    background-image: linear-gradient(to right, skyblue, rgb(208, 233, 242));
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about_us{
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: brown;
+        text-decoration: underline;
+}
+.custom-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .custom-image{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+    .how_to_use_topic{
+        text-align: center;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: brown;
+        text-decoration: underline;
+     }
+     #how_to_use .col {
+        font-size: 15px;
+      }
+
+  .about_us{
+    font-size: 30px;
+}
+}
+
