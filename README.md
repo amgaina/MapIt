@@ -1,6 +1,8 @@
 # MapIt (In-Progress)
 A mapping application designed for Tourism related Businesses to gather insightful information of their visitors FROM their visitors in a fun and user-friendly manner.
 
+Live at :  https://amgaina.github.io/MapIt/
+
 # Q) How to use it?
 A) Just make sure to enter a valid URL of a google sheet document in the home-page of our application. Make sure that the sheet does not contain any information that you might need. Our application clears the data from sheets that don't contain the Spreadsheet tag to make space for it to plot the data collected from its users. The Spreadsheet tag is a tag that our application inserts in your sheet once it starts plotting!
 
